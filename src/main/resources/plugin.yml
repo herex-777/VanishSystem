@@ -1,0 +1,19 @@
+name: VanishSystem
+version: 1.0
+main: me.herex.VanishSystem.VanishSystem
+api-version: "1.8"
+authors: [Herex_777]
+description: Advanced vanish system with database support
+
+commands:
+  vanish:
+    description: Toggle vanish mode
+    usage: /<command>
+
+permissions:
+  vanish.use:
+    description: Allows players to use vanish command
+    default: op
+  vanish.see:
+    description: Allows players to see vanished players
+    default: op
